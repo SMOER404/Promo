@@ -1,2 +1,2 @@
-# Promo
-Promo
+# Promo site
+Full adaptive
