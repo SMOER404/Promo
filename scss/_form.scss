@@ -1,0 +1,120 @@
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -226px;
+    margin-top: -262px;
+    width: 452px;
+    height: 524px;
+    background: url(../img/fon-form.jpg) no-repeat;
+    background-size: cover;
+    z-index: 11;
+    display: none;
+    .form__wrapper {
+        max-width: 100%;
+        max-height: 100%;
+        padding: 36px 44px 50px 36px;
+    .form__title {
+        padding-bottom: 36px;
+        p {
+            width: 300px;
+            padding-left: 24px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 17.5px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin: 0;
+            line-height: 19px;
+            span {
+                color: #ffcb00;
+            }
+        }
+    }
+    .form__input {
+        form {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            .form__input-group {
+                display: flex;
+                flex-direction: column;
+                label {
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 16.5px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    padding-left:24px;
+                    padding-bottom:16px;
+                    color: #ffffff;
+                }
+                input {
+                    max-width: 100%;
+                    height: 59px;
+                    margin-bottom: 22px;
+                    box-shadow: inset 1.1px 2.8px 7px 0 rgba(0, 0, 0, 0.35);
+                    background-color: #ffffff;
+                    color: rgba(0, 0, 0, 0.502);
+                    font-size: 19.5px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #0e0e0e69;
+                    padding-left: 24px;
+                }
+                input::placeholder {
+                    color: rgba(0, 0, 0, 0.502);
+                    font-size: 19.5px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #0e0e0e69;
+                }
+            } 
+            .form__input-group:nth-child(2)  input {
+                margin-bottom: 48px !important;
+             }
+            .form__input-btn {
+                .buy-btn {
+                    width: 274px;
+                    height: 64px;
+                    display: flex;
+                    justify-content: center;
+                    margin: auto;
+                    background: #ffcb00;
+                    border: none;
+                    text-shadow: 1.5px 3.7px 6.3px rgba(0,0,0,0.46);
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 32px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    }
+    .close-btn {
+        position: absolute;
+        top: 5px;
+        right: 5px;    
+    }
+}

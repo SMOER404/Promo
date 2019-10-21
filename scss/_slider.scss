@@ -1,0 +1,102 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    margin-top: -250px;
+    left: 50%;
+    margin-left: -250px;
+    display: none;
+    .mobal__button-close {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      z-index: 111;
+    }
+}
+.slide {
+    height: 519px;
+    background: white;
+    .slide__img {
+        max-height: 350px;
+        img {
+            max-height: 350px;
+        }
+    }
+    .slide__text {
+        height: 136px;
+        padding: 17px 22px 19px 22px;
+        .slide__text-title {
+            font-family: 'OpenSans', sans-serif;
+            font-size: 21.5px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #000000;
+            margin: 0;
+            padding-bottom:10px;
+        }
+        .slide__text-description {
+            font-family: 'OpenSans', sans-serif;
+            font-size: 17px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #000000;
+            margin: 0;
+        }
+    }
+}
+#slider {
+    position: relative;
+    border-radius: 4px;
+  }
+.slider__wrapper {
+    overflow: hidden;
+    position: relative;
+}
+  #slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 519px;
+    list-style: none;
+  }
+  
+  #slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 519px;
+    text-align: center;
+    line-height: 300px;
+    z-index:11;
+  }
+  
+  a.control_prev, a.control_next {
+    position: absolute;
+    top: 50%;
+    margin-top: -27.5px;
+    z-index: 999;
+    display: block;
+    width: 45px;
+    height: 84px;
+    cursor: pointer;
+  }
+  
+  a.control_prev {
+    left: -77px;
+    background: url(../img/button-left.png) no-repeat;
+  }
+  
+  a.control_next {
+    right: -77px;
+    background: url(../img/button-right.png) no-repeat;
+  }
