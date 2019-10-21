@@ -1,2 +1,2 @@
-# Promo site
-Full adaptive
+# Promo site "AMST WATCH"
+Responsive template
